@@ -10,7 +10,7 @@ function Likes(props) {
     }
 
     const subtractLikes = () => {
-        likes--
+        if(likes > 0){likes--}
         totalLikes(likes)
     }
     return (
