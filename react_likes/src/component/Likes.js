@@ -15,8 +15,7 @@ function Likes(props) {
     }
     return (
         <div className="like">
-            <h2 className="likes-view">{likes}</h2>
-            <br />
+            <p className="likes-view">{likes}</p>
             <button className="button" id="plus" onClick={addLikes}>+</button>
             <button className="button" id="minus" onClick={subtractLikes}>-</button>
         </div>

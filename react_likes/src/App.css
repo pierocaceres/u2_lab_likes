@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+p{
+  font-size: xx-large;
+}
+
 .like{
   margin: auto;
 }
@@ -10,15 +14,17 @@
   width: 50px;
   height: 50px;
   border: 1px solid #000000;
+  color: #ffffff;
+  font-size: x-large;
 }
 
 #plus{
-  background-color: rgb(29, 204, 29);
+  background-color: #1dcc1d;
   /* border: none; */
   margin-right: 10px;
 }
 
 #minus{
-  background-color: rgb(255, 20, 20);
+  background-color: #ff1414;
   /* border: none; */
 }
